@@ -1,0 +1,35 @@
+{
+    "token": "BOT TOKENIN",
+    "prefix": "ISTEDIGIN PREFIX",
+    "ownerId": "OWNER ID",
+    "botName": "BOT ISMINI GIR",
+    "presence": {
+        "status": "online",
+        "activityType": "Playing",
+        "activityName": "nowdizzy | voice"
+    },
+    "userPresence": {
+        "status": "online",
+        "activityName": "NowDizzY",
+        "details": "NowDizzY ile çalışıyorum",
+        "state": "nowdizzy.xyz",
+        "timestamp": true,
+        "largeImage": "Büyük resim linki gifde olur",
+        "largeText": "Bişeyler salla",
+        "smallImage": "kücük resim linki gifde olur",
+        "smallText": "salla bise",
+        "button1Label": "Discord Sunucusuna Katıl",
+        "button1Url": "https://discord.gg/kendiurlen",
+        "button2Label": "CopyRight © NowDizzY",
+        "button2Url": "istedigin link"
+    },
+    "packages": {
+        "ROLE_ID_1": { "name": "paket adı", "limit": 2 },
+        "ROLE_ID_2": { "name": "paket adı", "limit": 5 },
+        "ROLE_ID_3": { "name": "paket adı", "limit": 10 },
+        "ROLE_ID_4": { "name": "paket adı", "limit": 15 },
+        "ROLE_ID_5": { "name": "paket adı", "limit": 20 },
+        "ROLE_ID_6": { "name": "paket adı", "limit": 30 },
+        "ROLE_ID_7": { "name": "paket adı", "limit": 500 }
+    }
+}
