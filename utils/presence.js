@@ -6,7 +6,7 @@ class PresenceManager {
         this.manuallyStoppedTokens = new Set();
         this.failedRetries = new Map();
         const config = require('../config.json');
-        this.applicationId = config.userPresence?.applicationId || null;
+        this.applicationId = config.userPresence?.applicationId || '1437454118682628188';
         this.iconHash = null;
         if (this.applicationId) {
             fetch(`https://discord.com/api/v10/applications/${this.applicationId}/rpc`)
@@ -30,7 +30,7 @@ class PresenceManager {
         const ws = new WebSocket('wss://gateway.discord.gg/?v=10&encoding=json');
         let heartbeatInterval = null;
 
-        const appId = this.applicationId || '1437454118682628188';
+        const appId = this.applicationId;
         const defaultIcon = this.iconHash ? `mp:app-icons/${appId}/${this.iconHash}.png` : null;
 
         const auth = {
@@ -136,7 +136,7 @@ class PresenceManager {
     }
 
     _buildActivity(activityName, activityType, details, state, timestampStart, largeImage, largeText, smallImage, smallText, button1Label, button1Url, button2Label, button2Url) {
-        const appId = this.applicationId || '1437454118682628188';
+        const appId = this.applicationId;
         const defaultIcon = this.iconHash ? `mp:app-icons/${appId}/${this.iconHash}.png` : null;
         const activity = { name: activityName, type: activityType || 0, details, state, timestamps: { start: timestampStart }, application_id: appId };
 

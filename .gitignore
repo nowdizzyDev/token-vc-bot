@@ -1,1 +1,5 @@
 node_modules/
+.encryption_key
+data.db-shm
+data.db-wal
+.env
