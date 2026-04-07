@@ -19,7 +19,7 @@ module.exports = {
 
             const container = new ContainerBuilder()
                 .addTextDisplayComponents(new TextDisplayBuilder().setContent(
-                    `## ${e.settings} BotCode Ses Afk Sistemi\n${e.acik} **Sistem Durumu:** \`Aktif / Çevrimiçi\``
+                    `## ${e.settings} Ses Afk Sistemi\n${e.acik} **Sistem Durumu:** \`Aktif / Çevrimiçi\``
                 ))
                 .addSeparatorComponents(sep)
                 .addTextDisplayComponents(new TextDisplayBuilder().setContent(
