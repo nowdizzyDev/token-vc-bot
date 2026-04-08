@@ -42,7 +42,7 @@ Token eklenen Discord hesaplarına uygulanacak Rich Presence ayarları.
 | `details` | İkinci satır metin |
 | `state` | Üçüncü satır metin |
 | `timestamp` | `true` ise bağlanma zamanından itibaren süre sayacı gösterir |
-| `largeImage` | Büyük resim URL'si |
+| `largeImage` | Burayı Boş Bırakın Icon için |
 | `largeText` | Büyük resmin üzerine gelindiğinde çıkan yazı |
 | `button1Label` / `button1Url` | Birinci buton |
 | `button2Label` / `button2Url` | İkinci buton |
