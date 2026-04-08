@@ -78,6 +78,7 @@ Kullanıcıya paket atar. Paket, o kullanıcının kaç token ekleyebileceğini 
 
 Açılan menüden paket seçilir. Eski paket rolü otomatik kaldırılır, yeni paket rolü atanır.
 
+https://cdn.discordapp.com/attachments/1424419339498557555/1491499639042474144/image0.jpg
 ---
 
 ## Nasıl Çalışır
