@@ -19,9 +19,6 @@ node index.js
 
 `config.example.json` dosyasını `config.json` olarak kopyalayın ve doldurun:
 
-```bash
-cp config.example.json config.json
-```
 
 | Alan | Açıklama |
 |------|----------|
